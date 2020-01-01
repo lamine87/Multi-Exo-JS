@@ -1,0 +1,36 @@
+body {
+  width: 60%;
+  margin: 0 auto;
+  line-height: 2em;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+.fail {
+  color: red;
+}
+
+.win {
+  color: green;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+table {
+  border: 1px solid black;
+  margin: 20px auto;
+}
+
+table th {
+  width: 200px;
+  height: 40px;
+  background-color: #ccc;
+  text-align: center;
+  vertical-align: middle;
+}

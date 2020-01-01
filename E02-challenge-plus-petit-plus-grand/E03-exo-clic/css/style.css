@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+}
+
+#container {
+  margin: 2em auto;
+  width: 600px;
+}
+#title {
+  font-size: 2em;
+}
+button {
+  background: black;
+  border-radius: 0;
+  font-size: 1.3em;
+  padding: 10px 20px;
+  color: white;
+  border: 1px;
+}
+#shop-item {
+  font-size: 1.3em;
+  padding: 10px 20px;
+}
+
+#shopping-list {
+  margin-top: 1em;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+ol {
+  list-style: decimal;
+}

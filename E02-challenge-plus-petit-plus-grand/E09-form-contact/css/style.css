@@ -1,0 +1,107 @@
+#container {
+  font-family: sans-serif;
+  width: 500px;
+  text-align: center;
+  color: #51483f;
+  margin: 5em auto
+}
+
+#title {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+#title::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 10px auto;
+  background: url('../images/chat.svg') no-repeat;
+  background-size: 100%;
+}
+
+
+#subtitle {
+  font-size: 1.3em;
+  margin: .3em 0 1em;
+}
+
+#form-contact {
+  margin: 10px;
+}
+
+#form-fields {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+}
+
+.form-field {
+  font-family: serif;
+  border: 1px solid #ccc;
+  padding: .3em .8em;
+  font-size: 1.2em;
+  outline: none;
+}
+
+.error {
+  border-color: #e31e2a;
+}
+
+.valid {
+  border-color: #5cb760;
+}
+
+.form-field::placeholder {
+  color: #afafaf;
+}
+
+.form-field::-ms-placeholder {
+  color: #afafaf;
+}
+
+.form-field:focus {
+  border-color: #67c8d4;
+  box-shadow: 0 0 7px #67c8d4;
+}
+
+#form-field-name, #form-field-email {
+  width: 230px;
+  height: 40px;
+  margin-bottom: 1em;
+}
+
+#form-field-message {
+    width: 100%;
+    height: 120px;
+    resize: vertical;
+}
+
+#form-submit {
+  margin-top: 1em;
+  background: #67c8d4;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: .8em 1.6em;
+  letter-spacing: .1em;
+  border: none;
+  font-size: 1.2em;
+}
+#char-count {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: white;
+  padding: .5em 1em;
+}
+
+.form-error {
+  margin: 1em;
+  color: #e31e2a;
+  display: none;
+}

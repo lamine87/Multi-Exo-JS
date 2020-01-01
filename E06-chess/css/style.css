@@ -1,0 +1,73 @@
+
+/* #chess{
+  border: 1px solid #50312b;
+  width:95vh;
+  height:95vh;
+  margin:5px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Row{
+   box-sizing: border-box;
+  /*border: 1px solid grey;*/
+  /* width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell{
+ box-sizing: border-box;
+  color:black;
+  text-align: center;
+  font-size: 3em;
+}
+
+.whiteCell{
+   box-sizing: border-box;
+  color:black;
+  background-color: #efe0d1;
+}
+
+.brownCell{
+   box-sizing: border-box;
+  color:black;
+  background-color: #70433c;
+} */ 
+
+
+
+
+#chess{
+  width: 38em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body{
+  background-color: grey;
+}
+
+.cellBasic{
+  width: 5em;
+  height: 5em;
+  border: 1px solid black;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 26px;
+}
+
+
+.beige{
+  background-color: yellow;
+}
+
+.brown{
+  background-color: brown;
+}
+
+.active{
+  color:red;
+  border: 2px solid red;
+}
+
